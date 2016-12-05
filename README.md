@@ -2,7 +2,7 @@ README - VerySimpleHoneypot
 ====
 Honeypot for analyzing  data
 
-* run ./bin/smsids.py as sudo to start all services
+* run `./bin/smsids.py` with root permissions to start all services
 
 ## Debian prerequesits
 * python2 
@@ -16,10 +16,10 @@ Honeypot for analyzing  data
 
 all modules are normally installed using pip, like
 
-pip install --upgrade <name>
+    pip install --upgrade <name>
 
 ## Services
-Services can be added in the smsids.py source file, just add an array to the services like
+Services can be added in the `smsids.py` source file, just add an array to the services like
 
 * ["HTTPS", 443, RE.http_200]
 
